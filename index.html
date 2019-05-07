@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>index</title>
+	<style type="text/css">
+	@import"test.css"; 
+	</style>
+	<style>
+	body{
+		margin:0;
+	}	
+	img {
+	    width: 100%;
+	}
+</style>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+<script type="text/javascript" >  
+	$(window).scroll(function() {/*上方白色清單高度變化*/
+	    if ( $(this).scrollTop() > 100){
+	        // $('.top-list').css({'height':'100px','position':'fixed'});
+	        $('.top-header').addClass(' C-header');
+	        $('.top-list').addClass(' C-top-list');
+	    } else {
+	        $('.top-header').removeClass(' C-header');
+	        $('.top-list').removeClass(' C-top-list');
+	    }
+	});
+</script>  
+</head>
+<body>
+	<header>
+	<div class="top-header">
+		<div class="top-list">
+			<div class="logo"><img src="images/logo.png"></div>
+			<div class="L1"><a href="#personal"><img src="images/個人簡介.png"></a></div>
+			<div class="L2"><a href="#education"><img src="images/學歷背景.png"></a></div>
+			<div class="L3"><a href="#club"><img src="images/社團興趣.png"></a></div>
+			<div class="L4"><a href="#goal"><img src="images/自我期許.png"></a></div>
+		</div>
+	</div><!--最上面的選單-->
+</header>
+	<div class="banner">
+		<div class="banner-pic">
+			
+			<img src="images/banner2.jpg">
+			<!-- <p class="hello2">This is my website</p> -->
+			<p class="hello">Hello!<br><span class="hello2">This is my website.<span></p>
+		</div>
+	</div>
+	<a name="personal">
+	<div class="personal" >
+	<table align="center">
+	<tr>
+	<td>
+		<div class="me"><img  class="me-pic" src="images/me.jpg"></div>
+	</td>
+	<td>
+		<div class="context">
+			<span class="name">胡嘉軒&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<hr></span>
+			<span class="information">來自高雄市<br>中原大學資訊管理系<br>電話：0903242008<br>Email：a18264720@gmail.com</span>
+			<a href="https://www.facebook.com/profile.php?id=100003662905109&ref=bookmarks" target="_blank"><img  class="facebook"src="images/facebook.png"></a><a href="https://www.instagram.com/huhu3220/" target="_blank"><img  class="instagram"src="images/instagram.png"></a><a href="https://github.com/huhu3220" target="_blank"><img  class="github"src="images/github.png"></a>
+		</div>
+	</td>
+	</tr>
+	</table>
+	</div>
+	</a>
+	<a name="education">
+	<div class="education">
+		<span class="edu-word">學歷背景</span><br>
+		<span class="school">國小| 高雄市立新甲國民小學<br>國中| 高雄市立鳳甲國民中學<br>高中| 高雄市立小港高級中學<br>目前| 私立中原大學</span>
+	</div>
+	</a>
+	<a name="club">
+	<div class="club">
+		<div class="club-ex">社團經驗 Experience<br>
+		<span class="club-word"><li>國中 |管樂社<br><li>高中 |漫畫研究社 - 106級美編<br><li>大學 |管樂社 - 第八屆美宣、第九屆副社長</span>
+		<img  class="windband" src="images/windband.jpg">
+		</div>
+	</div>
+
+	<div class="club2">
+		<div class="club-ex2">社團心得 Experience<br>
+		<span class="club-word2">在大二的時候開始當了管樂社的美宣，起初覺得這是份很簡單的工作<br>後來才發現其實沒有這麼輕鬆，每一次的活動都需要設計大大小小的<br>海報，其實很累。而當幹部的期間也學會很多事情，在開會的時候，<br>要怎麼表達自己的意見，或是如何和平的溝通，都是我不斷學習的地<br>方。我第一次當成發總協的時候，那時候根本毫無頭緒，不知道該從<br>何開始，還好有社長和其他幹部的幫助，才能順利完成。總之，在大<br>二期間，很感謝有管樂社這個大家庭，讓我的大學生活更豐富，希望<br>在未來當副社長的我，能讓管樂社的溫暖繼續傳承下去。</span>
+		<img class="windband2" src="images/02.jpg">
+		</div>
+	</div>
+
+	<div class="interest">
+		<div class="interest-word">
+			興趣 Interest
+		</div>
+			<div class="picture">
+				<div class="pic"><img src="images/03.jpg"><div class="pic3">吹樂器</div></div>
+				<div class="pic pic2"><img src="images/01.jpg"><div class="pic3">繪圖</div></div>
+				<div class="pic pic2"><img src="images/04.jpg"><div class="pic3">攝影</div></div>
+			</div>
+	</div>
+	</a>
+	<a name="goal">
+	<div class="goal">	
+	<table align="center">
+		<tr><td>
+		<div class="goal2">
+			<div class="goal-title">目標 Goal</div>
+				<div class="goal-word"><li>多益750分<br><li>考到駕照</div>
+		</div>
+		</td>
+		<td>
+		<div class="goal2">
+			<div class="wish-title">自我期許 Wish</div>
+				<div class="wish-word"><li>增進自己英文能力<br><li>增加自己的打工經驗<li>拓展自我交友圈</div>
+		</div>
+		</td>
+		</tr>
+	</table>
+	</div>
+	</a>
+	<div class="life">
+		<span class="life-word">大學生活照 Life</span><br>
+		<div class="life-pic">
+			<div class="life-pic1"><img class="a"src="images/10.jpg"></div>
+			<div class="life-pic2"><img class="b"src="images/05.jpg"></div><br>
+			<div class="life-pic3"><img class="c"src="images/09.jpg"></div>
+			<div class="life-pic4"><img class="d"src="images/08.jpg"></div><br>
+			<div class="life-pic5"><img class="e"src="images/07.jpg"></div>
+			<div class="life-pic6"><img class="f"src="images/06.jpg"></div>
+		</div>
+	</div>
+<footer>
+		<div class="Copyright">Copyright©Hu-JiaHsuan 20180508<br>地址：32023 桃園市中壢區中北路二OO號 | Email：a18264720@gmail.com</div>
+</footer>
+</body>
+</html>
